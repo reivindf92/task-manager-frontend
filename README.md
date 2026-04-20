@@ -1,44 +1,31 @@
-# frontend-tasks
+# Task Manager Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación frontend desarrollada con Vue 3 para gestionar tareas.
 
-## Recommended IDE Setup
+## 🚀 Funcionalidades
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Login de usuario
+- Visualización de tareas
+- Crear, editar, completar y eliminar tareas
+- Manejo de estado (loading, mensajes)
+- Protección de rutas
 
-## Recommended Browser Setup
+## 🛠️ Tecnologías
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue 3
+- Vue Router
+- Axios
 
-## Customize configuration
+## ⚙️ Instalación
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Instalar dependencias:
+   npm install
 
-## Project Setup
+2. Ejecutar proyecto:
+   npm run dev
 
-```sh
-npm install
-```
+## 🔗 API
 
-### Compile and Hot-Reload for Development
+Este frontend consume la API Laravel disponible en:
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+http://localhost:8000/api
